@@ -1,0 +1,30 @@
+\documentclass[sigplan,screen,10pt]{acmart}
+\settopmatter{printfolios=true,printccs=false,printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+
+\pagestyle{plain} 
+
+\begin{document}
+
+\title{Your Very Nice Project Title}
+
+\author{Author Name, Author Name, Author Name}
+\affiliation{
+  \institution{University of Illinois at Urbana-Champaign}
+}
+\email{{netid1, netid2, netid3}@illinois.edu}
+
+\input{abstract}
+
+\maketitle
+
+\input{introduction}
+\input{middle_sections}
+\input{related_work}
+\input{conclusion}
+
+\bibliographystyle{acm}
+\bibliography{ref}
+
+\end{document}
+\endinput
